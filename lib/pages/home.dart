@@ -21,8 +21,13 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         leading: Container(
           margin: EdgeInsets.all(10),
-          width: 20,
-          height: 20,
+          alignment: Alignment.center,
+          width: 37,
+          child: SvgPicture.asset(
+            'assets/icons/Arrow - Left 2.svg',
+            width: 5,
+            height: 5,
+          ),
           decoration: BoxDecoration(
             color: Color(0xffF7F8F8),
             borderRadius: BorderRadius.circular(10),
