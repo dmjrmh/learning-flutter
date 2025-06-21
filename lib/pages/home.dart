@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
           hintStyle: TextStyle(color: Color(0xffDDDADA), fontSize: 15),
           prefixIcon: Padding(
             padding: const EdgeInsets.all(12),
-            child: SvgPicture.asset('assets/icons/Search.svg'),
+            child: SvgPicture.asset('assets/icons/search.svg'),
           ),
           suffixIcon: Container(
             width: 100,
@@ -82,7 +82,7 @@ class HomePage extends StatelessWidget {
                   ),
                   Padding(
                     padding: const EdgeInsets.all(12),
-                    child: SvgPicture.asset('assets/icons/Filter.svg'),
+                    child: SvgPicture.asset('assets/icons/filter.svg'),
                   ),
                 ],
               ),
@@ -117,7 +117,7 @@ class HomePage extends StatelessWidget {
           alignment: Alignment.center,
           width: 37,
           child: SvgPicture.asset(
-            'assets/icons/Arrow - Left 2.svg',
+            'assets/icons/arrow-left.svg',
             width: 20,
             height: 20,
           ),
